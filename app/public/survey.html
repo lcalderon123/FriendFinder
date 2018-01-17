@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Finder</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans" rel="stylesheet">
+</head>
+<body style="background-color: black; background: url(https://wallpaperscraft.com/image/girl_boy_rainbow_nature_friendship_mood_sunflower_29713_3840x2400.jpg) 
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+	<div class="container">
+		<form style="color: #11110f; font-size: 30pt; font-family: 'Indie Flower', cursive;">
+
+			<h3 style="font-size: 40pt; text-align: center; font-family: 'Indie Flower', cursive;"><strong>About You</strong></h3>
+			<h4>1 = Strongly Disagree, 5 = Strongly Agree</h4>
+			<h4>Name (Required)</h4>
+			<input type="text" name="" id="name" class="form-control" required >
+
+			<h4>Link to Photo Image (Required)</h4>
+			<input type="text" name="" id="photo" class="form-control" required >
+
+			<div class="form-group">
+				<label>Q1</label>
+				<p>I make friends easily.</p>
+				<select class="form-control" id='1'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Q2</label>
+				<p>I get angry easily.</p>
+				<select class="form-control" id='2'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Q3</label>
+				<p>I experience my emotions intensely.</p>
+				<select class="form-control" id='3'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Q4</label>
+				<p>I love excitement.</p>
+				<select class="form-control" id='4'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Q5</label>
+				<p>I like to solve complex problems.</p>
+				<select class="form-control" id='5'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Q6</label>
+				<p>I trust others.</p>
+				<select class="form-control" id='6'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Q7</label>
+				<p>I would never cheat on my taxes.</p>
+				<select class="form-control" id='7'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Q8</label>
+				<p>I complete tasks successfully.</p>
+				<select class="form-control" id='8'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Q9</label>
+				<p>I fear for the worst.</p>
+				<select class="form-control" id='9'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Q10</label>
+				<p>I like music.</p>
+				<select class="form-control" id='10'>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+		  <button type="submit" class="btn btn-default" id="form-submit">Submit</button>
+		</form>
+
+
+		<!-- Modal -->
+		<div id="resultsModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h2 class="modal-title"><strong>Your New Best Friend</strong></h2>
+		      </div>
+		      <div class="modal-body" id="modal-insert">
+				<h2 id="matchName"></h2>
+	        	<img id="matchImg" src="#" class="img-responsive" alt="friend image">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		//On form submit...
+		$("#form-submit").on('click', function(e) {
+			//Prevent default behavior 
+			e.preventDefault();
+			//Create empty array for user answers
+			var answers = [];
+			//Loop through each form-group div and pull data from the select child element
+			$(".form-group").each(function() {
+				answers.push($(this).find("select").val());
+			});
+			//Make sure user has put in a name and photo link
+			if($("#name").val() === '' || $("#photo").val() === ''){
+				alert('Please enter all required info');
+			}else {
+				//Create object to send to back end
+				var newFriend = {
+					name: $("#name").val().trim(),
+					photo: $("#photo").val().trim(),
+					scores: answers
+				}
+			}
+			//Post our data to our API route
+			$.post('/data/friends', newFriend)
+			.done(function(data) {
+				console.log(data);
+				//Use data sent back from back end to populate our modal and toggle it
+				$("#matchName").text(data.name);
+				$("#matchImg").attr('src', data.photo);
+				$("#resultsModal").modal("toggle");
+			});
+		});
+	</script>
+</body>
+</html>

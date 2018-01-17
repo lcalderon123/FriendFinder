@@ -1,0 +1,79 @@
+var friends = [{
+	name:"Julie",
+	photo:"https://metrouk2.files.wordpress.com/2017/08/pri_48957260.jpg",
+	scores:[
+		5,
+		1,
+		4,
+		4,
+		5,
+		1,
+		2,
+		5,
+		4,
+		1
+	]
+},{
+	name:"David",
+	photo:"https://avatars.mds.yandex.net/get-pdb/33827/1c0159d3-1456-4d36-93f9-7bce05147cc8/s800",
+	scores:[
+		5,
+		5,
+		5,
+		5,
+		5,
+		5,
+		5,
+		5,
+		5,
+		5
+	]
+},{
+	name:"Mike",
+	photo:"https://therideshareguy.com/wp-content/uploads/2014/05/About-Page2.jpg",
+	scores:[
+		5,
+		4,
+		3,
+		2,
+		1,
+		2,
+		3,
+		4,
+		5,
+		5
+	]
+},{
+	name:"Jared",
+	photo:"https://www.ndfya.com/clientuploads/testimonial-student.jpg",
+	scores:[
+		5,
+		1,
+		1,
+		1,
+		2,
+		3,
+		3,
+		5,
+		5,
+		5
+	]
+},{
+	name:"Steve",
+	photo:"https://thumbs.dreamstime.com/b/ethnic-guy-smiling-earbuds-27116403.jpg",
+	scores:[
+		5,
+		2,
+		4,
+		2,
+		4,
+		3,
+		3,
+		4,
+		5,
+		1
+	]
+}];
+
+//Export data to API
+module.exports = friends;
